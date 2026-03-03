@@ -96,7 +96,7 @@ public class controllerLogin {
         return false;
     }
 
-    public void automaticlyHandleLoginButton(String userName) throws SQLException {
+    public void automaticallyHandleLoginButton(String userName) throws SQLException {
 
         String pass = account.getPassWhenAccountTrue(userName);
         if (!pass.equals("")) {
